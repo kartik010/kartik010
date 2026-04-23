@@ -2,257 +2,229 @@
 
 # Kartik Sharma
 
-### Full-Stack & Shopify Developer · IEEE Author · Gurugram, India
+**Full-Stack & Shopify Developer · Gurugram, India**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-kartiksharma.io-0C447C?style=flat-square&logo=safari&logoColor=white)](https://kartiksharma.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-kartik--sharma-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/kartik-sharma)
-[![GitHub followers](https://img.shields.io/github/followers/kartik010?style=flat-square&logo=github&logoColor=white&color=181717)](https://github.com/kartik010)
-[![MERCI](https://img.shields.io/badge/mercidehradun.com-live-27500A?style=flat-square)](https://mercidehradun.com)
-[![KETE](https://img.shields.io/badge/kernelectech.in-live-27500A?style=flat-square)](https://kernelectech.in)
-
-**MCA '25 · Amity University &nbsp;&nbsp;|&nbsp;&nbsp; BCA '21 · GGSIPU**
-
-*Building production-grade web experiences — from ultra-luxury Shopify storefronts to blockchain DApps.*
+[![Portfolio](https://img.shields.io/badge/kartiksharma.io-000?style=flat-square&logo=safari&logoColor=white)](https://kartiksharma.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/kartik-sharma)
+[![Email](https://img.shields.io/badge/kk769sharma@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:kk769sharma@gmail.com)
+[![GitHub](https://img.shields.io/badge/kartik010-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kartik010)
 
 </div>
 
 ---
 
-## At a Glance
+```typescript
+const kartik = {
+  location:   "Gurugram, India",
+  education:  ["MCA @ Amity University '25", "BCA @ GGSIPU '21"],
+  working:    ["Shopify Dev @ MERCI Dehradun", "Freelance full-stack"],
+  stack:      ["Next.js", "TypeScript", "Shopify Liquid", "Solana", "Sanity"],
+  published:  "IEEE — Smart Grids on Blockchain using Solana (Aug 2025)",
+  reviewed:   "Peer Reviewer @ IEEE UPCON-2025",
+};
+```
+
+---
+
+## Stats
 
 <div align="center">
 
-| 🌐 Live Sites | 📄 IEEE Papers | ⚡ Years Building | 🛠 Tech Stacks |
-|:---:|:---:|:---:|:---:|
-| **4** | **1** | **2+** | **5+** |
+<img height="175" src="https://github-readme-stats.vercel.app/api?username=kartik010&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kartik010&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+
+<img src="https://streak-stats.demolab.com/?user=kartik010&theme=tokyonight&hide_border=true" />
 
 </div>
 
 ---
 
-## About Me
+## Projects
 
-I'm a full-stack and Shopify developer based in Gurugram, India. I've built and shipped production products across EdTech, e-commerce, blockchain, and corporate web — working as the sole developer at a startup and as a freelance engineer across multiple client verticals.
+---
 
-My work spans the full lifecycle: architecture, design systems, CMS setup, payment integrations, DNS/deployment, SEO, and analytics. I care deeply about both the code and the craft — how it's built matters as much as how it looks.
+### MERCI Dehradun — Shopify Redesign
+[mercidehradun.com](https://mercidehradun.com) · `Shopify Liquid` `Prestige Theme` `CSS` `JS`
 
-I also have a published IEEE paper on peer-to-peer energy trading using the Solana blockchain, presented at **ICRITO 2025**.
+Premium lifestyle and fashion brand based in Dehradun. Brought in to audit and redesign their Shopify store — working inside the Prestige theme by Maestrooo, no platform migration.
+
+| Before | After |
+|--------|-------|
+| Stale hero banners from old campaigns | Full UX audit with client issue log |
+| Broken 404 on collection routes | `header.liquid` rebuilt from scratch |
+| Empty alt tags sitewide | Riviera Cream editorial direction |
+| Duplicated mega-menu entries | Cormorant Garamond + Jost type system |
+| No typographic hierarchy | All CSS prefixed `mc-` — zero theme conflicts |
+
+**How I built it**
+1. UX audit — documented every broken route, missing asset, and UX failure
+2. Defined the Riviera Cream direction studying bonadea.com and goodearth.in
+3. Rebuilt `header.liquid` + `merci-header.css/js` from scratch, all `mc-` prefixed
+4. Redesigned homepage — hero, collection grid, editorial strips
+
+---
+
+### Vision 1000 — EdTech LMS
+[vision1000.in](https://vision1000.in) · `Next.js 14` `TypeScript` `Clerk` `Mux` `Sanity` `Razorpay` `OpenAI`
+
+Built solo at SMARRTIF AI. 3 courses, 21 lessons, $59/course, AI student assistant. Greenfield to production.
+
+| Brief | Shipped |
+|-------|---------|
+| No existing product, no team | Clerk — SSO, magic links, role-based access |
+| Video streaming at scale | Mux — adaptive streaming, 21 lessons |
+| Per-course purchases | Razorpay — payments + webhooks |
+| Content management | Sanity CMS — courses, instructors, blog |
+| AI features | OpenAI — student assistant chatbot |
+
+**How I built it**
+1. Next.js 14 App Router + TypeScript — Server Components for speed, Client for interactivity
+2. Mux upload pipeline — pre-signed URLs to Mux ingest, adaptive bitrate player
+3. Razorpay webhook handlers in API routes — purchase events write to Supabase
+4. OpenAI — chatbot that answers student questions scoped to course content
+
+---
+
+### KETE — kernelectech.in
+[kernelectech.in](https://kernelectech.in) · `HTML5` `CSS3` `GSAP` `SVG` `Vercel` `GoDaddy DNS`
+
+Corporate site for an electrical, instrumentation and solar energy company. Dark industrial aesthetic, delivered end-to-end.
+
+| Before | After |
+|--------|-------|
+| No web presence | Full site with dark industrial design |
+| No domain or email | Interactive India–Nepal SVG project map |
+| No analytics | GSAP scroll-triggered animations |
+| Leads via WhatsApp only | Partner logo carousel |
+| | GA4 + Search Console + MX email |
+
+**How I built it**
+1. Plain HTML/CSS/JS + GSAP — no framework, fast, lean, self-maintainable by client
+2. Built interactive SVG map of India–Nepal showing real project locations
+3. Vercel deployment + GoDaddy DNS — A record, CNAME, MX records for Workspace Email
+4. Delivered end-to-end: AI-generated logo, blog system, 6+ real project portfolios
+
+---
+
+### P2P Energy Trading — Solana DApp
+`Solana` `Anchor` `Next.js` `TypeScript` `Phantom Wallet` `Web3.js`
+
+**IEEE Published** — Smart Grids on Blockchain Using Solana as a Ledger (Aug 2025)
+**Peer Reviewer** — IEEE UPCON-2025
+
+| Research Gap | Solution |
+|-------------|----------|
+| Energy markets rely on central intermediaries | Anchor smart contracts on Solana |
+| High fees, slow settlement | Phantom Wallet — connect, sign, execute |
+| No trustless P2P at micro-scale | Sub-cent fees, ~400ms finality |
+| Ethereum too slow and expensive | On-chain matching + React dashboard |
+
+**How I built it**
+1. Chose Solana — ~65k TPS + sub-cent fees, viable for energy micro-transactions
+2. Anchor framework — listing, bid, and settlement programs on devnet
+3. `@solana/wallet-adapter` — Phantom connect, sign, read on-chain state
+4. React dashboard — live trade feed, wallet balance, transaction history from Solana RPC
+
+---
+
+### Tapodhani — Vastu Consultancy
+[creative-states-818272.framer.app](https://creative-states-818272.framer.app) · `Framer` `Cal.com` `Framer CMS`
+
+Brand and booking site for a Vastu consultancy. Spa-like feel, fully automated bookings post-launch.
+
+- 5 pages: Home, Services, About, Blog, Contact
+- Cal.com embed — clients book consultations with zero back-and-forth
+- Framer CMS — client publishes blog posts independently, no dev needed
+- 80% repeat clients · 10+ yr avg consultant experience · 70% remedy adoption
+
+---
+
+### The Design Edit — Portfolio
+`HTML5` `CSS3` `Canvas API` `Vanilla JS` · Zero dependencies · Single file
+
+Portfolio for floral and event designer Sumit Chander. One HTML file, no libraries, images from a PDF brief.
+
+- Canvas scrub hero — scroll-driven frame-by-frame sequence
+- 3D card tilt — `mousemove` drives `rotateX/Y` perspective transform
+- Magnetic cursor — lerp-tracked, distance-based snap to interactive elements
+- Base64-embedded images — truly zero dependencies
+
+---
+
+### NJ Interior — Interior Design Website
+`Next.js` · 100/100 Lighthouse SEO · 10+ scroll animations
+
+Performance-optimized interior design site with a perfect Lighthouse SEO score.
+
+---
+
+## Experience
 
 ```
-Frontend    →   Next.js 14 · React · TypeScript · Tailwind · HTML/CSS/JS · GSAP
-CMS         →   Sanity · Shopify Liquid · Framer
-Auth/Video  →   Clerk · Mux
-Payments    →   Razorpay
-AI          →   OpenAI API
-Blockchain  →   Solana · Anchor · Web3.js · Phantom Wallet
-Database    →   Supabase · Drizzle ORM · PostgreSQL
-Deployment  →   Vercel · GoDaddy DNS
-Analytics   →   GA4 · Google Search Console
+Dec 2025 – Mar 2026   Software Developer       SMARRTIF AI      Built Vision 1000 solo end-to-end
+Jan 2025 – Nov 2025   Frontend Dev Intern      SMARRTIF AI      30% load time reduction, chatbot + email flows
+Jun 2025 – Jul 2025   Research Intern          IIT Delhi        Next.js UI components, 25% page transition reduction
+Oct 2022 – Jan 2023   SDE-1 Frontend Intern    BIJAK            90+ Lighthouse scores across 4 production sites
+2024 – Present        Shopify Developer        MERCI Dehradun   Freelance
 ```
 
 ---
 
-## Featured Projects
+## Stack
 
-### 01 · MERCI Dehradun — Shopify Redesign
-
-> **Live →** [mercidehradun.com](https://mercidehradun.com) | `Shopify` `Liquid` `CSS` `Vanilla JS`
-
-Premium lifestyle and fashion brand based in Dehradun. Hired as their Shopify developer to audit and redesign the existing store — no platform migration, precision surgery inside the **Prestige theme by Maestrooo**. Target aesthetic: ultra-luxury comparable to Hermès, Loro Piana, Diptyque.
-
-**Before →**
-- Stale hero banners from old seasonal campaigns
-- Broken 404 pages on multiple collection routes
-- Empty `alt` tags across all product images (SEO + accessibility failure)
-- Duplicated mega-menu entries causing navigation confusion
-- No consistent typographic hierarchy on product pages
-
-**After →**
-- Full UX audit with documented issue log delivered to client
-- New `header.liquid` — rebuilt navigation architecture from scratch
-- Custom `merci-header.css` + `merci-header.js` — all prefixed `mc-` to prevent Prestige conflicts
-- Homepage redesigned in **Riviera Cream** direction — editorial, ultra-luxury
-- Typography system: **Cormorant Garamond** (display) + **Jost** (body)
-
-**How I built it →**
-1. Conducted full UX audit — mapped every broken route, missing asset, and UX failure into a documented issue log
-2. Studied reference brands (bonadea.com, goodearth.in) and defined the Riviera Cream direction
-3. Rebuilt `header.liquid` from scratch — all CSS/JS prefixed `mc-` to avoid Prestige theme conflicts
-4. Redesigned homepage sections using Cormorant Garamond for display and Jost for body text
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Shopify](https://img.shields.io/badge/Shopify-96BF48?style=flat-square&logo=shopify&logoColor=white)
+![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white)
+![Sanity](https://img.shields.io/badge/Sanity-F03E2F?style=flat-square&logo=sanity&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Framer](https://img.shields.io/badge/Framer-0055FF?style=flat-square&logo=framer&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white)
+![Mux](https://img.shields.io/badge/Mux-000?style=flat-square&logo=mux&logoColor=white)
+![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=flat-square&logo=razorpay&logoColor=3395FF)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 
 ---
 
-### 02 · Vision 1000 — EdTech LMS Platform
+## Research
 
-> **Live →** [vision1000.in](https://vision1000.in) | `Next.js 14` `TypeScript` `Clerk` `Mux` `Sanity` `Razorpay` `OpenAI`
+**Smart Grids on Blockchain Using Solana as a Ledger** · Published Aug 2025
+Decentralised smart grid infrastructure using Solana as a trustless settlement ledger.
 
-Full learning management system built entirely solo at **SMARRTIF AI** — greenfield to production in under 6 months. Course creation, video lessons, student dashboards, AI-generated content, and real payment flows.
-
-**The Brief →**
-- Zero existing product — truly greenfield, no handoff
-- Sole developer with no team
-- Video streaming at scale required
-- Payment subscriptions + one-time purchase plans
-- AI features to differentiate from competitors
-
-**What I Shipped →**
-- **Clerk** auth — SSO, magic links, role-based access (student / instructor / admin)
-- **Mux** video — adaptive streaming, upload pipeline, auto-generated thumbnails
-- **Razorpay** payments — subscription lifecycle + one-time purchases + webhook handling
-- **Sanity CMS** — structured content for courses, instructors, and blog
-- **OpenAI API** — course outline suggestions + AI-generated quizzes from lesson transcripts
-
-**How I built it →**
-1. Chose Next.js 14 App Router + TypeScript — Server Components for fast loads, Client Components for interactive dashboards
-2. Integrated Mux — built upload pipeline (pre-signed URLs to Mux ingest), adaptive bitrate player, auto-generated thumbnails
-3. Set up Razorpay with webhook handlers in Next.js API routes — subscription lifecycle written to Supabase
-4. Added OpenAI API layer — course outline suggestions and auto-generated quizzes from lesson transcripts via GPT-4
-
----
-
-### 03 · KETE — kernelectech.in
-
-> **Live →** [kernelectech.in](https://kernelectech.in) | `HTML` `CSS` `JS` `Vercel` `GoDaddy DNS` `GA4`
-
-End-to-end build and deployment of a corporate website for **Kern Elec Tech Experts** — an electrical, instrumentation, and solar energy company. Delivered everything: code, deployment, domain, email, analytics, and SEO.
-
-**Before →**
-- No web presence at all
-- No domain, no professional email
-- No analytics or search visibility
-- All inquiries managed via WhatsApp
-
-**After →**
-- Full site live on `kernelectech.in`
-- Vercel deployment + GoDaddy A record + CNAME configured
-- MX records for GoDaddy Workspace Email (`contact@kernelectech.in`)
-- GA4 + Google Search Console — sitemap submitted and indexed
-- SEO-ready: semantic HTML, meta tags, structured data
-
-**How I built it →**
-1. Built the full site in plain HTML/CSS/JS — no framework overhead, lean, fast, self-maintainable
-2. Deployed on Vercel, configured GoDaddy DNS — A record to Vercel IP, CNAME for `www` subdomain
-3. Set up MX records for GoDaddy Workspace Email so client can send from their own domain
-4. Created GA4 property, submitted XML sitemap to Search Console, verified domain ownership
-
----
-
-### 04 · P2P Energy Trading — Solana DApp
-
-> **IEEE ICRITO 2025** | `Solana` `Anchor` `TypeScript` `React` `Web3.js` `Phantom Wallet`
-
-A peer-to-peer energy trading system on Solana blockchain — combining original research with a working DApp. Prosumers list surplus energy, consumers bid in real time, all settled on-chain without a utility intermediary.
-
-**Research Gap →**
-- Energy markets rely entirely on central utility intermediaries
-- High settlement fees, slow clearing cycles
-- No trustless P2P solution at micro-transaction scale
-- Ethereum too slow and expensive for energy micro-trades
-
-**Solution Built →**
-- Anchor smart contracts — energy listing, bid submission, trade settlement
-- Phantom Wallet — connect, sign, and execute energy trade transactions
-- Sub-cent fees, ~400ms finality on Solana
-- On-chain matching + off-chain React dashboard with live trade feed
-- Published and presented in **IEEE proceedings at ICRITO 2025**
-
-**How I built it →**
-1. Chose Solana over Ethereum for ~65k TPS throughput and sub-cent fees — critical for energy micro-transactions
-2. Wrote smart contracts using Anchor framework — listing, bid, and settlement programs deployed to devnet
-3. Built Phantom Wallet integration with `@solana/wallet-adapter` — connect, sign, read on-chain state
-4. Designed React dashboard — live trade feed, wallet balance, transaction history from Solana RPC
-
----
-
-### 05 · Tapodhani — Vastu Consultancy Site
-
-> **Live →** [creative-states-818272.framer.app](https://creative-states-818272.framer.app) | `Framer` `Cal.com` `Framer CMS`
-
-Brand and booking site for a Vastu consultancy practice. Needed to feel calm, trustworthy, spiritual — with a fully automated booking flow.
-
-**Client Brief →**
-- No existing brand identity or website
-- Bookings managed manually via calls and WhatsApp
-- Client non-technical — site must be self-maintainable
-
-**What I Delivered →**
-- Full Framer site: Home, Services, About, Blog, Contact
-- Hero: *"Align Your Space, Align Your Life"* — full-bleed imagery, CTA above the fold
-- **Cal.com** booking embed — zero manual coordination for appointments
-- Stats: 80% repeat consultations · 10+ yr avg consultant experience · 70% remedy adoption
-- Testimonials, team, philosophy, and services sections
-
-**How I built it →**
-1. Chose Framer CMS — client updates blog posts, team bios, and services without any developer help
-2. Designed brand identity — calm, earthy tones, spiritual but modern, full-bleed photography
-3. Embedded Cal.com booking widget — clients schedule consultations with zero back-and-forth
-4. Built all 5 pages with Framer CMS powering the Blog so client publishes articles independently
-
----
-
-### 06 · The Design Edit — Portfolio Site
-
-> `HTML` `CSS` `Canvas API` `Vanilla JS` · *Zero external dependencies*
-
-Single-file portfolio for **Sumit Chander** — a floral and event designer. Cinematic and immersive, delivered as one HTML file with no external dependencies and images extracted from a PDF brief.
-
-**Constraints →**
-- Single deliverable — one HTML file, no folders, no CDN
-- All images came from a PDF brief only
-- Zero external libraries
-- Needed to feel high-end, not template-like
-
-**What I Built →**
-- **Canvas scrub hero** — image sequence driven by scroll position using lerped frame index
-- **3D card tilt** — `mousemove` calculates `rotateX/Y` from cursor offset relative to card center
-- **Magnetic cursor** — custom cursor tracks mouse via lerp, snaps to interactive elements
-- **Base64-embedded images** — truly zero dependencies, single file delivery
-
-**How I built it →**
-1. Extracted all images from the PDF, optimized them, base64-encoded each one directly into HTML
-2. Built canvas scrub hero — image sequence into `<canvas>`, frame index driven from scroll position
-3. Added 3D card tilt — `mousemove` listener drives CSS `perspective` transform in real time
-4. Built magnetic cursor — `div` tracks mouse via lerp, snaps with distance-based attraction force
-
----
-
-## Work Experience
-
-| Period | Role | Company |
-|--------|------|---------|
-| 2024 – Present | Shopify Developer | MERCI Dehradun · Freelance |
-| 2023 – 2024 | Software Developer | SMARRTIF AI · Sole dev on Vision 1000 |
-| 2022 | Frontend Developer Intern | IIT Delhi |
-| 2021 | Frontend Developer Intern | BIJAK |
-
----
-
-## Research and Publication
-
-**P2P Energy Trading Using Solana Blockchain**
-*IEEE ICRITO 2025 · Presented and Published*
-
-Proposed and implemented a decentralised peer-to-peer energy trading model using Solana smart contracts — demonstrating trustless, low-latency energy markets without utility intermediaries. Chose Solana for ~65k TPS throughput and sub-cent transaction fees, making it viable for energy micro-transactions at scale.
+**Peer Reviewer — IEEE UPCON-2025**
+Reviewed technical submissions for the IEEE Uttar Pradesh Section International Conference.
 
 ---
 
 ## Education
 
-| Degree | Institution | Year |
-|--------|-------------|------|
-| MCA — Master of Computer Applications | Amity University | 2023–2025 |
-| BCA — Bachelor of Computer Applications | GGSIPU | 2018–2021 |
+| Degree | Institution | Year | GPA |
+|--------|-------------|------|-----|
+| MCA | Amity University, Noida | 2025 | 6.42 / 10 |
+| BCA | GGSIPU, New Delhi | 2021 | 6.4 / 10 |
+
+---
+
+## Certifications
+
+- Advanced Front-End with React — DUCAT
+- Industry 4.0 & IIoT — IIT Kharagpur
+- Cloud IoT & Edge ML — IIT Kharagpur
+- AI & Robotics — IIT Madras
 
 ---
 
 <div align="center">
 
-**Open to freelance projects and full-time roles**
+Open to freelance and full-time roles — Shopify · Next.js · Full-stack · Remote or Gurugram
 
-`Shopify` · `Next.js` · `Full-stack` · Remote or Gurugram
-
-[![Portfolio](https://img.shields.io/badge/kartiksharma.io-000000?style=for-the-badge&logo=safari&logoColor=white)](https://kartiksharma.io)
+[![Portfolio](https://img.shields.io/badge/kartiksharma.io-000?style=for-the-badge&logo=safari&logoColor=white)](https://kartiksharma.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kartik-sharma)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kartik010)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kk769sharma@gmail.com)
 
 </div>
