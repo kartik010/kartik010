@@ -1,13 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0C447C&amp;height=120&amp;section=header&amp;text=Kartik%20Sharma&amp;fontSize=40&amp;fontColor=E6F1FB&amp;fontAlignY=40&amp;desc=Full-Stack%20%26%20Shopify%20Developer%20%C2%B7%20IEEE%20Author&amp;descAlignY=65&amp;descColor=85B7EB" width="100%"/>
+# Kartik Sharma
+
+### Full-Stack & Shopify Developer · IEEE Author · Gurugram, India
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-kartiksharma.io-0C447C?style=flat-square&logo=safari&logoColor=white)](https://kartiksharma.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-kartik--sharma-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/kartik-sharma)
-[![GitHub](https://img.shields.io/badge/GitHub-kartik010-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kartik010)
-[![Email](https://img.shields.io/badge/Email-reach%20out-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:kartik@email.com)
+[![GitHub followers](https://img.shields.io/github/followers/kartik010?style=flat-square&logo=github&logoColor=white&color=181717)](https://github.com/kartik010)
+[![MERCI](https://img.shields.io/badge/mercidehradun.com-live-27500A?style=flat-square)](https://mercidehradun.com)
+[![KETE](https://img.shields.io/badge/kernelectech.in-live-27500A?style=flat-square)](https://kernelectech.in)
 
-**MCA '25 · Amity University | BCA '21 · GGSIPU | Gurugram, India**
+**MCA '25 · Amity University &nbsp;&nbsp;|&nbsp;&nbsp; BCA '21 · GGSIPU**
 
 *Building production-grade web experiences — from ultra-luxury Shopify storefronts to blockchain DApps.*
 
@@ -15,7 +18,7 @@
 
 ---
 
-## ◈ At a Glance
+## At a Glance
 
 <div align="center">
 
@@ -27,7 +30,7 @@
 
 ---
 
-## ◈ About Me
+## About Me
 
 I'm a full-stack and Shopify developer based in Gurugram, India. I've built and shipped production products across EdTech, e-commerce, blockchain, and corporate web — working as the sole developer at a startup and as a freelance engineer across multiple client verticals.
 
@@ -49,9 +52,10 @@ Analytics   →   GA4 · Google Search Console
 
 ---
 
-## ◈ Featured Projects
+## Featured Projects
 
 ### 01 · MERCI Dehradun — Shopify Redesign
+
 > **Live →** [mercidehradun.com](https://mercidehradun.com) | `Shopify` `Liquid` `CSS` `Vanilla JS`
 
 Premium lifestyle and fashion brand based in Dehradun. Hired as their Shopify developer to audit and redesign the existing store — no platform migration, precision surgery inside the **Prestige theme by Maestrooo**. Target aesthetic: ultra-luxury comparable to Hermès, Loro Piana, Diptyque.
@@ -79,6 +83,7 @@ Premium lifestyle and fashion brand based in Dehradun. Hired as their Shopify de
 ---
 
 ### 02 · Vision 1000 — EdTech LMS Platform
+
 > **Live →** [vision1000.in](https://vision1000.in) | `Next.js 14` `TypeScript` `Clerk` `Mux` `Sanity` `Razorpay` `OpenAI`
 
 Full learning management system built entirely solo at **SMARRTIF AI** — greenfield to production in under 6 months. Course creation, video lessons, student dashboards, AI-generated content, and real payment flows.
@@ -106,6 +111,7 @@ Full learning management system built entirely solo at **SMARRTIF AI** — green
 ---
 
 ### 03 · KETE — kernelectech.in
+
 > **Live →** [kernelectech.in](https://kernelectech.in) | `HTML` `CSS` `JS` `Vercel` `GoDaddy DNS` `GA4`
 
 End-to-end build and deployment of a corporate website for **Kern Elec Tech Experts** — an electrical, instrumentation, and solar energy company. Delivered everything: code, deployment, domain, email, analytics, and SEO.
@@ -132,6 +138,7 @@ End-to-end build and deployment of a corporate website for **Kern Elec Tech Expe
 ---
 
 ### 04 · P2P Energy Trading — Solana DApp
+
 > **IEEE ICRITO 2025** | `Solana` `Anchor` `TypeScript` `React` `Web3.js` `Phantom Wallet`
 
 A peer-to-peer energy trading system on Solana blockchain — combining original research with a working DApp. Prosumers list surplus energy, consumers bid in real time, all settled on-chain without a utility intermediary.
@@ -158,6 +165,7 @@ A peer-to-peer energy trading system on Solana blockchain — combining original
 ---
 
 ### 05 · Tapodhani — Vastu Consultancy Site
+
 > **Live →** [creative-states-818272.framer.app](https://creative-states-818272.framer.app) | `Framer` `Cal.com` `Framer CMS`
 
 Brand and booking site for a Vastu consultancy practice. Needed to feel calm, trustworthy, spiritual — with a fully automated booking flow.
@@ -183,6 +191,7 @@ Brand and booking site for a Vastu consultancy practice. Needed to feel calm, tr
 ---
 
 ### 06 · The Design Edit — Portfolio Site
+
 > `HTML` `CSS` `Canvas API` `Vanilla JS` · *Zero external dependencies*
 
 Single-file portfolio for **Sumit Chander** — a floral and event designer. Cinematic and immersive, delivered as one HTML file with no external dependencies and images extracted from a PDF brief.
@@ -207,7 +216,7 @@ Single-file portfolio for **Sumit Chander** — a floral and event designer. Cin
 
 ---
 
-## ◈ Work Experience
+## Work Experience
 
 | Period | Role | Company |
 |--------|------|---------|
@@ -218,7 +227,7 @@ Single-file portfolio for **Sumit Chander** — a floral and event designer. Cin
 
 ---
 
-## ◈ Research and Publication
+## Research and Publication
 
 **P2P Energy Trading Using Solana Blockchain**
 *IEEE ICRITO 2025 · Presented and Published*
@@ -227,7 +236,7 @@ Proposed and implemented a decentralised peer-to-peer energy trading model using
 
 ---
 
-## ◈ Education
+## Education
 
 | Degree | Institution | Year |
 |--------|-------------|------|
@@ -245,7 +254,5 @@ Proposed and implemented a decentralised peer-to-peer energy trading model using
 [![Portfolio](https://img.shields.io/badge/kartiksharma.io-000000?style=for-the-badge&logo=safari&logoColor=white)](https://kartiksharma.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kartik-sharma)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kartik010)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0C447C&amp;height=80&amp;section=footer" width="100%"/>
 
 </div>
